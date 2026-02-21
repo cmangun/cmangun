@@ -1,6 +1,6 @@
 # Christopher Mangun
 
-**Forward Deployed AI Engineer** | Building production AI systems in regulated environments
+**Forward Deployed AI Engineer** | Production AI in regulated environments | Verifiable agent systems
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-healthcare--ai--consultant.com-blue?style=flat-square)](https://healthcare-ai-consultant.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-christophermangun-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/christophermangun)
@@ -14,65 +14,73 @@ I embed with customer teams to ship production AI systems — RAG pipelines, age
 
 **15+ years** in healthcare, pharma, and enterprise AI:
 - **Pfizer** — Agentic RAG platform for clinical document intelligence
-- **Abbott Labs** — ML pipeline migration with zero FDA audit findings  
+- **Abbott Labs** — ML pipeline migration with zero FDA audit findings
 - **Medtronic** — GI Genius 510(k) validation frameworks
 - **IPG Health** — $51M portfolio across 13 pharma brands
 
 ---
 
-## 🏥 Healthcare AI Systems
+## Agentic Evidence Suite
 
-Production-ready, open-source implementations:
-
-| Repository | Description | Status |
-|------------|-------------|--------|
-| [**healthcare-rag-platform**](https://github.com/cmangun/healthcare-rag-platform) | HIPAA-compliant RAG with PHI detection, guardrails, and evaluation | [![CI](https://github.com/cmangun/healthcare-rag-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/cmangun/healthcare-rag-platform/actions) |
-| [**mlops-healthcare-platform**](https://github.com/cmangun/mlops-healthcare-platform) | FDA 21 CFR Part 11 model validation (IQ/OQ/PQ) with MLflow | [![CI](https://github.com/cmangun/mlops-healthcare-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/cmangun/mlops-healthcare-platform/actions) |
-| [**clinical-nlp-pipeline**](https://github.com/cmangun/clinical-nlp-pipeline) | Medical NER with UMLS linking and ICD-10 coding | [![CI](https://github.com/cmangun/clinical-nlp-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/cmangun/clinical-nlp-pipeline/actions) |
-| [**model-governance-framework**](https://github.com/cmangun/model-governance-framework) | Bias detection and FDA-ready model cards | [![CI](https://github.com/cmangun/model-governance-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/cmangun/model-governance-framework/actions) |
-| [**compliance-automation-suite**](https://github.com/cmangun/compliance-automation-suite) | HIPAA validation with 45 CFR 164 references | [![CI](https://github.com/cmangun/compliance-automation-suite/actions/workflows/ci.yml/badge.svg)](https://github.com/cmangun/compliance-automation-suite/actions) |
-
----
-
-## 🤖 Agentic AI & Enterprise LLM
-
-| Repository | Description | Status |
-|------------|-------------|--------|
-| [**coco-healthcare-intelligence**](https://github.com/cmangun/coco-healthcare-intelligence) | Agentic document AI with multi-step reasoning | [![CI](https://github.com/cmangun/coco-healthcare-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/cmangun/coco-healthcare-intelligence/actions) |
-| [**agentic-workflow-engine**](https://github.com/cmangun/agentic-workflow-engine) | Production agent framework with tool orchestration | [![CI](https://github.com/cmangun/agentic-workflow-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/cmangun/agentic-workflow-engine/actions) |
-| [**enterprise-llm-integration**](https://github.com/cmangun/enterprise-llm-integration) | Secure LLM adapters with governance guardrails | [![CI](https://github.com/cmangun/enterprise-llm-integration/actions/workflows/ci.yml/badge.svg)](https://github.com/cmangun/enterprise-llm-integration/actions) |
-
----
-
-## 📊 Code Stats
+A 6-repo specification and toolchain for **verifiable agent execution** — cryptographic receipts, non-bypassable policy enforcement, and portable evidence bundles.
 
 ```
-Python          ~12,000 lines    Healthcare ML, RAG, NLP
-TypeScript       ~3,500 lines    APIs, tooling
-Terraform        ~1,200 lines    IaC patterns
+Spec ──→ Tooling ──→ Governance ──→ Evaluation ──→ Review
 ```
 
-**8,700+ lines** of production healthcare AI code with:
-- ✅ Comprehensive test suites
-- ✅ CI/CD with security scanning (CodeQL, Dependabot)
-- ✅ Type hints and structured logging
-- ✅ Architecture documentation
+| Repository | Lang | Description |
+|------------|------|-------------|
+| [**agentic-receipts**](https://github.com/cmangun/agentic-receipts) | JSON Schema | Receipt schemas, canonicalization spec, hash-chain vectors |
+| [**agentic-trace-cli**](https://github.com/cmangun/agentic-trace-cli) | Rust | CLI: `init → append → sign → verify → redact → export` |
+| [**agentic-policy-engine**](https://github.com/cmangun/agentic-policy-engine) | Python | Deny-by-default evaluation with decision receipts |
+| [**agentic-eval-harness**](https://github.com/cmangun/agentic-eval-harness) | Python | 8 scenarios: PHI redaction, budget caps, bypass attempts |
+| [**agentic-evidence-viewer**](https://github.com/cmangun/agentic-evidence-viewer) | TypeScript | Drag-drop bundle viewer with client-side verification |
+| [**agentic-artifacts**](https://github.com/cmangun/agentic-artifacts) | Python | Artifact manifests with provenance and integrity hashing |
+
+**Key design decisions:**
+- Hash-chained receipts (SHA-256) make tampering, reordering, and omission detectable
+- Policy engine emits receipts for every allow/deny — auditors see exactly why
+- Ed25519 signatures for non-repudiation
+- Redaction preserves integrity verification (original hash retained)
 
 ---
 
-## 🛠️ Tech Stack
+## Healthcare AI Systems
 
-**AI/ML:** RAG, Agentic AI, LLMs, LangChain, LlamaIndex, MLflow  
-**Healthcare:** HIPAA Safe Harbor, FDA 21 CFR Part 11, UMLS, ICD-10, HL7 FHIR  
-**Platforms:** Azure ML, AWS SageMaker, Kubernetes, FastAPI  
-**Data:** PostgreSQL, Pinecone, Weaviate, Neo4j  
+Production-ready implementations for regulated environments:
+
+| Repository | Description | Demo |
+|------------|-------------|------|
+| [**healthcare-rag-platform**](https://github.com/cmangun/healthcare-rag-platform) | HIPAA-compliant RAG: PHI detection, guardrails, cost guard, audit logging | `docker compose up` |
+| [**clinical-nlp-pipeline**](https://github.com/cmangun/clinical-nlp-pipeline) | Medical NER with UMLS linking and ICD-10 coding | |
+| [**mlops-healthcare-platform**](https://github.com/cmangun/mlops-healthcare-platform) | FDA 21 CFR Part 11 model validation (IQ/OQ/PQ) with MLflow | |
+| [**enterprise-llm-integration**](https://github.com/cmangun/enterprise-llm-integration) | Secure LLM adapters with governance guardrails | |
 
 ---
 
-## 📬 Connect
+## Other Projects
 
-- 🌐 [healthcare-ai-consultant.com](https://healthcare-ai-consultant.com)
-- 💼 [LinkedIn](https://linkedin.com/in/christophermangun)
-- 📧 cmangun@gmail.com
+| Repository | Description |
+|------------|-------------|
+| [**coco-ai**](https://github.com/cmangun/coco-ai) | AI project manager — Svelte 5 platform for autonomous agent orchestration |
+| [**field-deployed-engineer-showcase**](https://github.com/cmangun/field-deployed-engineer-showcase) | Case studies from forward-deployed AI engagements |
+
+---
+
+## Tech Stack
+
+**AI/ML:** RAG, Agentic AI, LLMs, LangChain, LlamaIndex, MLflow
+**Healthcare:** HIPAA Safe Harbor, FDA 21 CFR Part 11, UMLS, ICD-10, HL7 FHIR
+**Languages:** Python, Rust, TypeScript, SQL
+**Platforms:** Azure ML, AWS SageMaker, Kubernetes, FastAPI
+**Data:** PostgreSQL, Pinecone, Weaviate, Neo4j
+
+---
+
+## Connect
+
+- [healthcare-ai-consultant.com](https://healthcare-ai-consultant.com)
+- [LinkedIn](https://linkedin.com/in/christophermangun)
+- cmangun@gmail.com
 
 **Open to:** Forward Deployed Engineer, Solutions Architect, ML Platform roles
