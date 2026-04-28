@@ -21,9 +21,9 @@ I design agentic systems where execution is **verifiable**, policy is **non-bypa
 
 ---
 
-## Agentic Evidence Suite — Reference Architecture
+## Agentic Evidence Suite
 
-A 6-repo specification and toolchain for verifiable agent execution.
+Six interoperating components for verifiable agent execution. The meta-repo **[agentic-evidence](https://github.com/cmangun/agentic-evidence)** (v0.1.0) carries the suite-level reference architecture, standards interop, glossary, roadmap, and versioning policy. The six components below implement it.
 
 ```
 Spec ──→ Tooling ──→ Governance ──→ Evaluation ──→ Review
