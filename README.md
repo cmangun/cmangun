@@ -15,8 +15,8 @@ I design agentic systems where execution is **verifiable**, policy is **non-bypa
 **15+ years** architecting AI and data platforms in healthcare, pharma, and regulated enterprise. Representative outcomes:
 
 - Agentic RAG architecture deployed into clinical document intelligence at a top-5 pharma
-- ML platform migration passed FDA audit with zero findings
-- 510(k) validation frameworks shipped for an FDA-cleared AI medical device
+- Governed AI migration designed for FDA-inspection-ready evidence: complete audit trails, validated deployment gates, reconstructable model lineage
+- Advised technical and regulatory strategy for a 510(k)-cleared AI medical device (documentation, evidence mapping, launch support — not model development or submission ownership)
 - $51M AI/data portfolio delivered across 13 regulated brands
 
 ---
