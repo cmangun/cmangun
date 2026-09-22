@@ -9,10 +9,9 @@
 ---
 
 ## What I Do
+AI transformation, delivery, and operations leader with 10+ years leading complex enterprise technology programs from strategy through production. Combines $51M portfolio ownership with hands-on fluency in generative AI, RAG, LLM evaluation, MLOps, cloud architecture, and AI governance. Builds operating models that connect strategy, teams, controls, and technology to move emerging capabilities into reliable production, with clear ownership of scope, risk, dependencies, vendors, release readiness, adoption, and executive decisions.
 
-I design agentic systems where execution is **verifiable**, policy is **non-bypassable**, and evidence is **portable**. My work defines the contracts, receipts, and evaluation boundaries that make AI agents deployable in regulated environments — not "can we ship it," but "can we prove what it did, why, and under which controls."
-
-**15+ years** architecting AI and data platforms in healthcare, pharma, and regulated enterprise. Representative outcomes:
+Representative outcomes:
 
 - Agentic RAG architecture deployed into clinical document intelligence at a top-5 pharma
 - Governed AI migration designed for FDA-inspection-ready evidence: complete audit trails, validated deployment gates, reconstructable model lineage
