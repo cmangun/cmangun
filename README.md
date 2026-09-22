@@ -1,6 +1,6 @@
 # Christopher Mangun
 
-**AAI transformation, delivery, and operations leader
+AI transformation, delivery, and operations leader
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-healthcare--ai--consultant.com-blue?style=flat-square)](https://healthcare-ai-consultant.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-christophermangun-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/christophermangun)
