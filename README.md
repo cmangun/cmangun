@@ -1,22 +1,33 @@
 # Christopher Mangun
 
-AI transformation, delivery, and operations leader
+Principal Technical Program Manager, AI Delivery
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-healthcare--ai--consultant.com-blue?style=flat-square)](https://healthcare-ai-consultant.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-christophermangun-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/christophermangun)
-[![Location](https://img.shields.io/badge/Location-Brooklyn,%20NY-green?style=flat-square)]()
+[![Portfolio](https://img.shields.io/badge/Portfolio-christophermangun-blue?style=flat-square)](https://cmangun.github.io/christopher-mangun-portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-christopher--mangun-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/christopher-mangun-5257265/)
+[![Location](https://img.shields.io/badge/Location-New%20York,%20NY-green?style=flat-square)]()
 
 ---
 
 ## What I Do
-AI transformation, delivery, and operations leader with 10+ years leading complex enterprise technology programs from strategy through production. Combines $51M portfolio ownership with hands-on fluency in generative AI, RAG, LLM evaluation, MLOps, cloud architecture, and AI governance. Builds operating models that connect strategy, teams, controls, and technology to move emerging capabilities into reliable production, with clear ownership of scope, risk, dependencies, vendors, release readiness, adoption, and executive decisions.
+
+Principal Technical Program Manager with 17+ years leading enterprise platforms, AI programs, and
+complex technology delivery. Builds the operating models, governance, and release controls that move
+programs from executive intent through production. Led portfolios up to $51M, scaled organizations to
+60+ people, and launched cloud and AI platforms for enterprise users.
 
 Representative outcomes:
 
-- Agentic RAG architecture deployed into clinical document intelligence at a top-5 pharma
-- Governed AI migration designed for FDA-inspection-ready evidence: complete audit trails, validated deployment gates, reconstructable model lineage
-- Advised technical and regulatory strategy for a 510(k)-cleared AI medical device (documentation, evidence mapping, launch support — not model development or submission ownership)
-- $51M AI/data portfolio delivered across 13 regulated brands
+- $51M AI and data portfolio delivered across 13 regulated brands, with the delivery organization
+  scaled from five people to more than 60
+- Enterprise RAG platform taken into governed production for 500+ users: source governance,
+  retrieval, evaluation, access controls, and a named operational owner
+- Diagnostics data ecosystem modernized across ~27,000 instruments — retrieval efficiency up 65%,
+  a delivery cycle cut from roughly six months to three weeks
+- Content operations redesigned to shorten review cycles 35% and raise approved-content reuse 2.3×,
+  with human and MLR approval unchanged
+
+The repositories below are reference implementations: the governance and evidence patterns those
+programs relied on, written as working code rather than described in a deck.
 
 ---
 
@@ -70,8 +81,9 @@ Spec ──→ Tooling ──→ Governance ──→ Evaluation ──→ Revie
 
 ## Connect
 
-- [healthcare-ai-consultant.com](https://healthcare-ai-consultant.com)
-- [LinkedIn](https://linkedin.com/in/christophermangun)
+- [Portfolio](https://cmangun.github.io/christopher-mangun-portfolio/)
+- [LinkedIn](https://www.linkedin.com/in/christopher-mangun-5257265/)
 - cmangun@gmail.com
 
-**Open to:** Agentic Systems Architect · AI Platform Architect · Principal/Staff AI roles in regulated industries
+**Open to:** Principal Technical Program Manager and AI delivery leadership roles where platform
+execution, governance, and organizational scale matter.
