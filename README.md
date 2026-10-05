@@ -12,17 +12,20 @@ Principal Technical Program Manager, AI Delivery
 
 Principal Technical Program Manager with 17+ years leading enterprise platforms, AI programs, and
 complex technology delivery. Builds the operating models, governance, and release controls that move
-programs from executive intent through production. Led portfolios up to $51M, scaled organizations to
-60+ people, and launched cloud and AI platforms for enterprise users.
+programs from executive intent through production. Led a $51M global AI content program and a $24M,
+13-brand portfolio, scaled organizations to 60+ people, and launched cloud and AI platforms for
+enterprise users.
 
 Representative outcomes:
 
-- $51M AI and data portfolio delivered across 13 regulated brands, with the delivery organization
-  scaled from five people to more than 60
+- $51M Comirnaty global campaign at Pfizer CoLab, with content automation running through
+  medical, legal, and regulatory review
+- $24M portfolio delivered across 13 regulated brands, with the delivery organization scaled from
+  five people to more than 60
 - Enterprise RAG platform taken into governed production for 500+ users: source governance,
   retrieval, evaluation, access controls, and a named operational owner
-- Diagnostics data ecosystem modernized across ~27,000 instruments — retrieval efficiency up 65%,
-  a delivery cycle cut from roughly six months to three weeks
+- $12M diagnostics data program modernized across ~27,000 instruments — retrieval efficiency up 65%,
+  a delivery cycle cut from roughly six months to three weeks, and an FDA inspection with zero findings
 - Content operations redesigned to shorten review cycles 35% and raise approved-content reuse 2.3×,
   with human and MLR approval unchanged
 
